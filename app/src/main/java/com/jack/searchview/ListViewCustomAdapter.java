@@ -1,4 +1,4 @@
-package com.journaldev.searchview;
+package com.jack.searchview;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -12,14 +12,10 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
-import com.journaldev.searchview.databinding.RowItemBinding;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/*
- * Created by anupamchugh on 07/02/16.
- */
 public class ListViewCustomAdapter extends BaseAdapter implements Filterable {
 
     List<String> mData;

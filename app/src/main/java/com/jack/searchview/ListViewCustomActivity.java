@@ -1,16 +1,13 @@
-package com.journaldev.searchview;
+package com.jack.searchview;
 
 import android.app.SearchManager;
 import android.content.Context;
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
-
-import com.journaldev.searchview.databinding.ActivityMainBinding;
 
 import java.util.ArrayList;
 import java.util.List;
